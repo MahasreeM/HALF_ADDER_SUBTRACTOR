@@ -1,5 +1,7 @@
 # HALF_ADDER_SUBTRACTOR
-
+# Developed by:MAHA SHREE M
+# RegisterNumber:*212224110035
+# Date:14.03.2025
 Implementation-of-Half-Adder-and-Half Subtractor-circuit
 
 **AIM:**
@@ -49,10 +51,23 @@ Figure -02 HALF Subtractor
 
 
 **Program:**
+```
+i)HALF ADDER
+module exp3(a,b,sum,carry);
+input a,b;
+output sum,carry;
+assign sum= (a ^ b);
+assign carry= ( a & b);
+endmodule
 
-/* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-
-Developed by: RegisterNumber:*/
+ii)HALF SUBTRACTOR
+module exp3(a,b,difference,borrow);
+input a,b;
+output difference,borrow;
+assign difference= (a ^ b);
+assign borrow= ( ~a & b);
+endmodule
+```
 
 **RTL Schematic**
 
