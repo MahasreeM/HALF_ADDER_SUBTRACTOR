@@ -70,7 +70,17 @@ endmodule
 ```
 
 **RTL Schematic**
+![exp sum](https://github.com/user-attachments/assets/10ad1410-5d0e-4854-8532-bd83b4577b5e)
+
+
+![exp3](https://github.com/user-attachments/assets/388d45a9-c60c-4218-b8c7-95e14d7113d7)
 
 **Output/TIMING Waveform**
+![exp3 s wave](https://github.com/user-attachments/assets/37a9125b-c980-4861-ac9e-05aa277c3b16)
+
+
+![exp3](https://github.com/user-attachments/assets/b552ccd3-600b-44d0-838a-579674cc8f9a)
 
 **Result:**
+
+Thus the Half-adder and Half-subtractor are studied and truth table and logic gates are verified successfully.
